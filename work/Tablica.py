@@ -16,11 +16,11 @@ class Window(QMainWindow):
 
         self.bat = QPushButton(self)
 
-        self.setWindowIcon(QIcon('1920dd04dccc296ae63644e4845af50b.jpg.png'))
+        self.setWindowIcon(QIcon('C:\work\work_on_LP\work\1920dd04dccc296ae63644e4845af50b.jpg'))
         
         self.label = QLabel(self)
-        self.label.setGeometry(QtCore.QRect(0, 0, 700,500))
-        self.pixmap = QPixmap("1920dd04dccc296ae63644e4845af50b.jpg")
+        self.label.setGeometry(QtCore.QRect(0,0 , 800,700))
+        self.pixmap = QPixmap("C:\work\work_on_LP\work\1920dd04dccc296ae63644e4845af50b.jpg")
         self.label.setPixmap(self.pixmap)
         
         self.rull = QLineEdit(self)
